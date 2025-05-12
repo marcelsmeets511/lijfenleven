@@ -200,10 +200,11 @@ const InvoiceItemForm = ({ customerId, invoiceId, onItemAdded }: InvoiceItemForm
                   render={({ field }) => (
                     <FormItem className="sm:col-span-2">
                       <FormLabel>Klant</FormLabel>
-                      <Select
-                        onValueChange={(value) => field.onChange(parseInt(value))}
-                        defaultValue={field.value?.toString()}
-                      >
+                    <CustomerCombobox
+                      customers={customers as any[]}
+                      value={field.value?.toString()}
+                      onChange={(value) => field.onChange(parseInt(value))}
+                     >
                         <FormControl>
                           <SelectTrigger>
                             <SelectValue placeholder="Selecteer een klant" />
@@ -216,7 +217,7 @@ const InvoiceItemForm = ({ customerId, invoiceId, onItemAdded }: InvoiceItemForm
                             </SelectItem>
                           ))}
                         </SelectContent>
-                      </Select>
+                      </CustomerCombobox>
                       <FormMessage />
                     </FormItem>
                   )}
