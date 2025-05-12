@@ -63,7 +63,7 @@ const InvoicePreview = ({ open, onOpenChange, invoiceId, onConfirm }: InvoicePre
               <p className="text-gray-600">Vervaldatum: {formatDate(invoice.dueDate)}</p>
             </div>
             <div className="text-right">
-              <h3 className="text-xl font-bold text-primary">FactuurPro</h3>
+              <h3 className="text-xl font-bold text-primary">Lijfenleven</h3>
               <p className="text-gray-600">Voorbeeldstraat 123</p>
               <p className="text-gray-600">1234 AB Amsterdam</p>
               <p className="text-gray-600">info@factuurpro.nl</p>

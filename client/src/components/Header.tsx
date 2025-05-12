@@ -58,7 +58,7 @@ const Header = () => {
               <div>
                 <button type="button" className="bg-white rounded-full flex text-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
                   <span className="sr-only">Open gebruikersmenu</span>
-                  <img className="h-8 w-8 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="Gebruiker profiel foto" />
+                  <img className="h-8 w-8 rounded-full" src="https://lijfenleven.nu/wp-content/uploads/2023/09/Foto-Hein-Kuipers-praktijk-lijfenleven-crop.jpg" alt="Gebruiker profiel foto" />
                 </button>
               </div>
             </div>

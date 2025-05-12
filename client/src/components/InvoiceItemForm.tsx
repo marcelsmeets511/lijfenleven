@@ -200,11 +200,11 @@ const InvoiceItemForm = ({ customerId, invoiceId, onItemAdded }: InvoiceItemForm
                   render={({ field }) => (
                     <FormItem className="sm:col-span-2">
                       <FormLabel>Klant</FormLabel>
-                    <CustomerCombobox
-                      customers={customers as any[]}
-                      value={field.value?.toString()}
-                      onChange={(value) => field.onChange(parseInt(value))}
-                     >
+                      <CustomerCombobox
+                        customers={customers as any[]}
+                        value={field.value?.toString()}
+                        onChange={(value) => field.onChange(parseInt(value))}
+                       >
                         <FormControl>
                           <SelectTrigger>
                             <SelectValue placeholder="Selecteer een klant" />
