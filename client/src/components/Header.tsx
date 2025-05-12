@@ -14,7 +14,7 @@ const Header = () => {
           <div className="flex">
             <div className="flex-shrink-0 flex items-center">
               <Link href="/">
-                <a className="text-2xl font-bold text-primary">lijfenleven-facturen</a>
+                <img className="h6 h6" src="https://lijfenleven.nu/wp-content/uploads/2023/09/Logo-1.png" />
               </Link>
             </div>
             <nav className="hidden sm:ml-6 sm:flex sm:space-x-8" aria-label="Global">
